@@ -17,11 +17,29 @@ body {
 
 /* MAIN */
 .video {
+    position: relative;
+
     height: calc(100% - 80px);
 
     background-color: black;
     /* test */
 }
+.full-screen {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px 5px;
+    font-size: 1em;
+}
+.full-screen button {
+
+    background-color: #4a4a4a;
+    border-radius: 7px;
+    padding: 5px 8px;
+    color: white;
+    cursor: pointer;
+}
+
 /* __________________________________________________ */
 .grid {
     display: flex;
@@ -70,19 +88,12 @@ img {
     width: 100%;
 }
 /* __________________________________________________ */
-.fa-solid {
+.mute-video .fa-solid, .general-controls .fa-solid {
     display: block;
-    font-size: 1.5em;
-}
-.fa-microphone-slash {
-    display: inline-block;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 .fa-share-from-square {
     color: #4bc800;
-}
-.fa-angle-up {
-    font-size: 1em;
 }
 /* __________________________________________________ */
 .mute-video {
@@ -125,6 +136,9 @@ img {
     height: 100%;
     background-color: #4a4a4a;
     padding: 20px;
+}
+.end-meeting a {
     color: red;
+    text-decoration: none;
 }
 /* /NAV */
