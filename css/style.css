@@ -17,7 +17,7 @@ body {
 
 /* MAIN */
 .video {
-    height: calc(100% - 100px);
+    height: calc(100% - 80px);
 
     background-color: black;
     /* test */
@@ -32,10 +32,66 @@ body {
 .player {
     display: flex;
     justify-content: space-between;
-    height: 100px;
-
+    height: 80px;
     background-color: #222222;
 }
 /* __________________________________________________ */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 
+}
+/* __________________________________________________ */
+
+.fa-solid {
+    display: block;
+    font-size: 1.5em;
+}
+/* __________________________________________________ */
+.mute-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+.mute-video div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .3em;
+}
+/* __________________________________________________ */
+.general-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+    padding-left: 20px;
+}
+.general-controls div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .3em;
+}
+
+
+
+.end-meeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #4a4a4a;
+    padding: 20px;
+    color: red;
+}
 /* /NAV */
