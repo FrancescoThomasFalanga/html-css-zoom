@@ -27,25 +27,33 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
     padding: 80px 80px 20px;
     width: 100%;
     height: 100%;
 }
 /* __________________________________________________ */
 .single-card {
-    width: calc(100% / 7 - 10px);
-    height: calc(100% / 5 - 10px);
+    position: relative;
+    width: calc(100% / 7 - 8px);
+    height: calc(100% / 5 - 8px);
     border: 1px solid black;
     background-color: green;
+}
+/* __________________________________________________ */
+.user-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    background-color: #33333375;
+    font-size: 1em;
 }
 /* __________________________________________________ */
 img {
     width: 100%;
     height: 100%;
 }
-/* __________________________________________________ */
-
 /* /MAIN */
 
 
@@ -67,6 +75,10 @@ img {
 .fa-solid {
     display: block;
     font-size: 1.5em;
+}
+.fa-microphone-slash {
+    display: inline-block;
+    font-size: 1em;
 }
 /* __________________________________________________ */
 .mute-video {
