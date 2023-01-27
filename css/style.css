@@ -28,19 +28,23 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
-
     padding: 80px 80px 20px;
     width: 100%;
     height: 100%;
-    background-color: red;
 }
-
+/* __________________________________________________ */
 .single-card {
     width: calc(100% / 7 - 10px);
     height: calc(100% / 5 - 10px);
     border: 1px solid black;
     background-color: green;
 }
+/* __________________________________________________ */
+img {
+    width: 100%;
+    height: 100%;
+}
+/* __________________________________________________ */
 
 /* /MAIN */
 
