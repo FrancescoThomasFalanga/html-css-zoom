@@ -1,3 +1,4 @@
+/* GENERAL SETTINGS */
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +9,33 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.container {
+    height: 100vh;
+}
+/* /GENERAL SETTINGS */
+
+/* MAIN */
+.video {
+    height: calc(100% - 100px);
+
+    background-color: black;
+    /* test */
+}
+/* __________________________________________________ */
+
+
+/* /MAIN */
+
+
+/* NAV */
+.player {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+    background-color: #222222;
+}
+/* __________________________________________________ */
+
+/* /NAV */
